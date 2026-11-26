@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datatypes</title>
+</head>
+<body>
+
+    <p id="som1"></p>
+    <p id="som2"></p>
+
+    <script>
+        const tekst = "20";
+        const getal = 10;
+
+        const som1 = getal + getal;
+        const som2 = tekst + getal;
+
+        document.getElementById("som1").innerHTML = "getal + getal = " + som1;
+        document.getElementById("som2").innerHTML = "tekst + getal = " + som2;
+
+        console.log("getal + getal =", som1);
+        console.log("tekst + getal =", som2);
+    </script>
+
+</body>
+</html>
